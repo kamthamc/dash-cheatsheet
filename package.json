@@ -1,0 +1,26 @@
+{
+  "name": "@kamthamc/dash-cheatsheet",
+  "version": "1.0.0",
+  "description": "creates dash cheatsheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamthamc/dash-cheatsheet.git"
+  },
+  "keywords": [
+    "dash",
+    "cheatsheet"
+  ],
+  "author": "Chaitanya Kumar Kamatham <projects+github@kchaitanya.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamthamc/dash-cheatsheet/issues"
+  },
+  "homepage": "https://github.com/kamthamc/dash-cheatsheet#readme",
+  "devDependencies": {
+    "semantic-release": "^15.13.30"
+  }
+}
