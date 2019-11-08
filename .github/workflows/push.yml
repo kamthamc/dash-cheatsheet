@@ -19,3 +19,8 @@ jobs:
       - name: Build and publish cheatsheets
         run: |
           make all
+      - name: Bump version and push tag
+        uses: codfish/semantic-release-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo ${{ steps.semantic.outputs.release-version }}
