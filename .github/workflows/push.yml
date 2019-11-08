@@ -22,10 +22,6 @@ jobs:
       - name: Build and Commit
         run: |
           make all
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Bump version and push tag
         uses: codfish/semantic-release-action@master
         env:
