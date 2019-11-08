@@ -1,0 +1,21 @@
+name: Ruby
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Skip based on commit message
+        uses: veggiemonk/skip-commit@1.0.0
+        env:
+          COMMIT_FILTER: [SKIP CI]
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - name: Build and publish cheatsheets
+        run: |
+          make all
