@@ -10,6 +10,6 @@ push:
 	git config --global user.email "projects+github+dashcheatsetbot@kchaitanya.com"
 	git config --global user.name "Dash cheatset bot"
 	git commit -v -am "chore: new cheatsets [skip-ci]"
-	git push
+	git push origin master
 
 all: setup git-docset push
