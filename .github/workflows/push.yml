@@ -16,9 +16,13 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
-      - name: Build and publish cheatsheets
+      - name: Build and Commit
         run: |
           make all
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Bump version and push tag
         uses: codfish/semantic-release-action@master
         env:
