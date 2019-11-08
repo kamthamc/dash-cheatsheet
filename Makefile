@@ -6,7 +6,7 @@ setup:
 	gem install cheatset
 
 push:
-	git commit -v -am "chore: new cheatsets [SKIP CI]"
+	git commit -v -am "chore: new cheatsets [skip-ci]"
 	git push
 
 all: setup git-docset push
