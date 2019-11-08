@@ -23,4 +23,3 @@ jobs:
         uses: codfish/semantic-release-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: echo ${{ steps.semantic.outputs.release-version }}
