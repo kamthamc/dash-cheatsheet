@@ -3,6 +3,7 @@ git-docset:
 	git add Git.docset
 
 setup:
+	apt-get install libsqlite3-dev
 	gem install cheatset
 
 push:
