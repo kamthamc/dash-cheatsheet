@@ -7,5 +7,6 @@ setup:
 
 push:
 	git commit -v -am "chore: new cheatsets [SKIP CI]"
+	git push
 
-all: git-docset push
+all: setup git-docset push
