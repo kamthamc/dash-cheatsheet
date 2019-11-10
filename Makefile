@@ -4,7 +4,11 @@ git-docset:
 
 common-aliases-docset:
 	cheatset generate common-aliases.rb
-	tar -czvf CommonAliases.docset.gz ./Git.docset
+	tar -czvf CommonAliases.docset.gz ./CommonAliases.docset
+
+vscode:
+	cheatset generate vscode.rb
+	tar -czvf vscode.docset.gz ./vscode.docset
 
 setup:
 	sudo apt-get install libsqlite3-dev

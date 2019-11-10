@@ -16,6 +16,10 @@ module.exports = {
           {
             path: 'CommonAliases.docset.gz',
             label: 'Common Aliases Cheatsheet'
+          },
+          {
+            path: 'vscode.docset.gz',
+            label: 'vscode Aliases Cheatsheet'
           }
         ]
       }
