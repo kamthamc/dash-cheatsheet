@@ -7,7 +7,7 @@ module.exports = {
     [
       '@semantic-release/github',
       {
-        assets: [{ path: 'Git.docset', label: 'Git Docset' }]
+        assets: [{ path: 'Git.docset.gz', label: 'Git Cheatsheet' }]
       }
     ]
   ]

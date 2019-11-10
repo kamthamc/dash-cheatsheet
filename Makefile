@@ -1,6 +1,6 @@
 git-docset:
 	cheatset generate git.rb
-	git add Git.docset
+	tar -czvf Git.docset.gz ./Git.docset
 
 setup:
 	sudo apt-get install libsqlite3-dev
