@@ -6,7 +6,7 @@ common-aliases-docset:
 	cheatset generate common-aliases.rb
 	tar -czvf CommonAliases.docset.gz ./CommonAliases.docset
 
-vscode:
+vscode-docset:
 	cheatset generate vscode.rb
 	tar -czvf vscode.docset.gz ./vscode.docset
 
@@ -19,4 +19,4 @@ push:
 	git config --global user.email "projects+github+dashcheatsetbot@kchaitanya.com"
 	git config --global user.name "Dash cheatset bot"
 
-all: setup common-aliases-docset git-docset
+all: setup common-aliases-docset vscode-docset git-docset
