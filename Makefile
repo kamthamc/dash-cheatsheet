@@ -5,6 +5,7 @@ git-docset:
 setup:
 	sudo apt-get install libsqlite3-dev
 	gem install cheatset
+	npm i
 
 push:
 	git config --global user.email "projects+github+dashcheatsetbot@kchaitanya.com"
