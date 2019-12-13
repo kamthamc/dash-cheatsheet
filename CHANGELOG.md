@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/kamthamc/dash-cheatsheet/compare/v1.3.0...v1.4.0) (2019-12-13)
+
+
+### Features
+
+* funding ([e0852ed](https://github.com/kamthamc/dash-cheatsheet/commit/e0852ed4a58d484df4c9e634fe8fdee22373c615))
+
 # [1.3.0](https://github.com/kamthamc/dash-cheatsheet/compare/v1.2.0...v1.3.0) (2019-11-10)
 
 
